@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        #maindiv{
+            border:2px solid red;
+            display: flex;
+            height: 300px;
+            /*flex-direction:row;*/ 
+            justify-content:center;
+             align-items:flex-start;    
+             flex-wrap:nowrap;
+
+
+        }
+        .div{
+            border: 2px solid black;
+            margin: 10px;
+            width: 100px;
+            
+        }
+
+        #first{
+            background-color:yellow;
+            flex-shrink:3;
+            
+        }
+        #second{
+            background-color:aqua;
+            <!-- align-self:flex-end; -->
+        }
+        
+        #third{
+            background-color: blueviolet;
+        }
+
+        #fourth{
+            background-color: beige;
+        }
+
+        #fifth{
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <div id="maindiv">
+
+    <div  id="first"  class="div">1</div>
+    <div  id="second" class="div">2</div>
+    <div  id="third"  class="div">3</div>
+    <div  id="fourth" class="div">4</div>
+    <div  id="fifth"  class="div">5</div>
+
+</div>
+
+</body>
+</html>

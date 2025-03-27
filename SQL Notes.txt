@@ -1,0 +1,69 @@
+Database
+-query
+** Types of SQL Language ***
+1)DDL-Data definition language
+-Create 
+-Alter
+-Drop
+-Truncate
+-Rename
+
+2)DML-Data manipulation language
+-Insert
+-Delete
+-Update
+
+3)DCL-Data control lang
+-Grant 
+-Revoke
+
+3)TCL -Transaction control language 
+-Commit
+-Rollback
+-Savepoint
++
+4)DQL-Data query language
+-Select
+
+**CREATE DATABASE 
+SCREATE DATABASE DATABASE NAME
+
+**CREATE TABLE TABLE NAME(
+cl-Name1  Datatypype(size),
+cl-Name2  Datatypype(size),.
+.
+.
+.
+cl-NameN  Datatypype(size));
+
+--EXAMPLE
+
+CREATE TABLE student(student_Name varchar(20),
+ROLL_No int,
+city varchar(20),
+college varchar(50),
+fees int,
+marks int);
+
+/** INSERT COMMAND
+
+SYNTAX--
+1)INSERT INTO table_Name(cl_Name1,cl_Name2,cl_Name3)
+VALUES(V1,v2,v3);
+
+2)INSERT INTO table_Name(cl_Name2,cl_Name3,cl_Name1)
+VALUES(V2,v3,v1);
+
+3)INSERT INTO table_Name(cl_Name1,cl_Name2)
+VALUES(V1,v2);
+
+4)INSERT INTO table_Name VALUES(V1,v2,v3);
+
+5)INSERT INTO table_Name(cl_Name1,cl_Name2,cl_Name3)
+VALUES	(V1,v2,v3),
+	(V1,v2,v3),
+	(V1,v2,v3);
+
+
+ 
+
