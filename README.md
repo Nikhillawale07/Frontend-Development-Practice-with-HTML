@@ -1,2 +1,2 @@
-# HTML-Practicle
-HTML Practicle
+# HTML-Practical
+HTML Practical
