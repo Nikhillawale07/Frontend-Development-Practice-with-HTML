@@ -1,3 +1,3 @@
-# HTML-Practical
-HTML-Practical
+#Frontend Development Practice with HTML5
+Frontend Development Practice with HTML5
 
